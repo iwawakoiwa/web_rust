@@ -1,6 +1,22 @@
-body {
-    margin-top: 55px;
-    margin-left: 100px;
-    margin-right: 100px;
-    color: red;
+.backimarge {
+    position: relative;
+}
+.content {
+    position: absolute;
+    top: 25px;  /* 親の上端から10px下 */
+    left: 50px; /* 親の左端から10px右 */
+    right: 50px; /* 親の右端から10px左 */
+    z-index: 10; /* 必要に応じて重ね順を指定 */
+    background-color: rgba(44, 44, 44, 0.95); /* 半透明で下の画像を見せる */
+
+}
+.main_text {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    height: 550px;
 }
