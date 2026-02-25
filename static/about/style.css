@@ -47,26 +47,3 @@
   background: gray;
   color: #FFF;
 }
-.backimarge {
-    position: relative;
-}
-.content {
-    position: absolute;
-    top: 50px;  /* 親の上端から25px下 */
-    left: 50px; /* 親の左端から50px右 */
-    right: 50px; /* 親の右端から50px左 */
-    bottom: 50px; /* 親の下端から50px上 */
-    z-index: 10; /* 必要に応じて重ね順を指定 */
-    background-color: rgba(44, 44, 44, 0.95); /* 半透明で下の画像を見せる */
-
-}
-.main_text {
-    font-size: 15px;
-    font-weight: bold;
-    color: white;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
