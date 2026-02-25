@@ -1,11 +1,11 @@
 .header {
-    position: fixed;  /* これが重要 */
+    position: fixed;  
     top: 0;
     left: 0;
     width: 100%;
     height: 50px;
-    z-index: 9999; /* ヘッダーが他の要素より前面に表示されるように */
-    background-color: rgba(255,255,255,0.95); /* 半透明で下の画像を見せる */
+    z-index: 9999; 
+    background-color: rgba(255,255,255,0.95); 
     border-bottom: 2px solid gray;
 }
 .header_text {
@@ -53,12 +53,12 @@
 }
 .content {
     position: absolute;
-    top: 50px;  /* 親の上端から25px下 */
-    left: 50px; /* 親の左端から50px右 */
-    right: 50px; /* 親の右端から50px左 */
-    bottom: 50px; /* 親の下端から50px上 */
-    z-index: 10; /* 必要に応じて重ね順を指定 */
-    background-color: rgba(44, 44, 44, 0.95); /* 半透明で下の画像を見せる */
+    top: 50px;  
+    left: 50px; 
+    right: 50px;
+    bottom: 50px; 
+    z-index: 10; 
+    background-color: rgba(44, 44, 44, 0.95); 
 }
 .main_text {
     font-size: 15px;
