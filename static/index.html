@@ -4,10 +4,16 @@
         <meta charset="utf-8">
         <title>Rust Web Server</title>
         <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="js/copyEmail.js"></script>
     </head>
     <body>
         <div class="header">
-            <img src="imarge/myicon.webp" alt="Icon Image" class="icon">
+            <img src="image/myicon.webp" alt="Icon Image" class="icon">
+            <a href="https://github.com/iwawakoiwa">
+                <img src="image/GitHub_Invertocat_Black.png" alt="Icon Image" class="icon" style="width: auto; height: 25px; margin-top: 15px;">
+            <a onclick="copyEmail()">
+                <img src="image/computer_email.png" alt="Icon Image" class="icon" style="width: auto; height: 30px; margin-top: 15px;">
+            </a>
             <div class="header_text">
                 <h1 class="h1_header">IWAのホームページ</h1>
             </div>
@@ -17,19 +23,35 @@
                 <a href="index.html" class="btn-flat-vertical-border">home</a>
             </div>
         </div>
-        <div class="backimarge">
-            <img src="imarge/backimarge.webp" alt="Background Image" style="width:100%; height: auto;">
+        <div class="backimage">
+            <img src="image/backimage.webp" alt="Background Image" style="width:100%; height: auto;">
             <div class= "content">
                 <div class="main_text">
-                    <h1>IWAのホームページへようこそ</h1>
-                    <p>これはRUSTとAXUMで作られているシンプルなwebサーバーです</p>
+                    <h1>IWAのホームページへようこそ / Welcome to the IWA homepage</h1>
+                    <div >
+                        <h2>自己紹介 / Self-Introduction</h2>
+                        <p>
+                            こんにちは! ただのrustが好きなだけの人です。
+                            暇なときにrustを用いて様々なものを作っています。<br>
+                            minecraftのmodも作っています。
+                            これから様々な言語に触れていきたいです。<br>
+                        </p>
+                        <h2>使用している主な言語 / Language used</h2>
+                        <ul>
+                            <li>Rust -> 一番メイン</li>
+                            <li>Java -> MinecraftのMod開発用</li>
+                            <li>C++ -> マイコンを動かす用 (ino) </li>
+                    </div>
                 </div>
             </div>
         </div>
-        <div>
-            <a href="https://github.com/iwawakoiwa/web_rust/tree/master" style="float: left; margin-left: 20px;">
-                <img src="imarge/GitHub_Lockup_Black.png" alt="Icon Image" style="width: auto; height: 30px;">
+        <div class="footer">
+            <a href="https://github.com/iwawakoiwa/web_rust/tree/master" style="float: left; margin-left: 20px; margin-top: 10px;">
+                <img src="image/GitHub_Invertocat_Black.png" alt="Icon Image" style="width: auto; height: 30px;">
             </a>
+            <p style="margin-left: 20px;float:left;">© 2026 IwaServiceBuilt with Rust & Axum Self-hosted in JP</p>
+            <a href="https://www.photo-ac.com/main/detail/33109565/1" style="margin-left: 20px; float: left; margin-top: 15px;">Photo by 寝屋川市駅 on PhotoAC</a>
+            </div>
         </div>
     </body>
 </html>
