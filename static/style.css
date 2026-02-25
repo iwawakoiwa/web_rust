@@ -6,6 +6,7 @@
     height: 50px;
     z-index: 9999; /* ヘッダーが他の要素より前面に表示されるように */
     background-color: rgba(255,255,255,0.95); /* 半透明で下の画像を見せる */
+    border-bottom: 2px solid gray;
 }
 .header_text {
     font-size: 10px;
@@ -58,7 +59,6 @@
     bottom: 50px; /* 親の下端から50px上 */
     z-index: 10; /* 必要に応じて重ね順を指定 */
     background-color: rgba(44, 44, 44, 0.95); /* 半透明で下の画像を見せる */
-
 }
 .main_text {
     font-size: 15px;

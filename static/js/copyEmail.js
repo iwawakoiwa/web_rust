@@ -1,4 +1,4 @@
 function copyEmail() {
-        navigator.clipboard.writeText("your@email.com");
-        alert("コピーしました！");
+        navigator.clipboard.writeText("info@iwaservice.uk");
+        alert("info@iwaservice.ukをコピーしました！");
     }
